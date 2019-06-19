@@ -14,8 +14,8 @@
 jamfURL="https://<jssURL>:8443/JSSResource"
 
 # this step prompts the person running it for their credentials
-read -p 'Enter your user Name: ' <JamfUserName>
-read -sp 'Enter your password (cursor will not move): ' <jamfPassword>
+read -p 'Enter your user Name: ' <jamfUser>
+read -sp 'Enter your password (cursor will not move): ' <jamfpass>
 echo
 echo "Enter first.last name of the customer to search: "${compName}" "
 read compName
